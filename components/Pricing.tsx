@@ -57,7 +57,7 @@ export function Pricing() {
         <div className=" bg-white py-24 sm:pt-48">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto md:max-w-4xl text-center">
-                    <TextWithEmoji emoji="💲" text="PRICING" />
+                    <TextWithEmoji emoji="💲" text="PRICING" align='center' />
                     <p className="mt-2 text-3xl md:text-4xl font-semibold tracking-wide text-gray-900 sm:text-5xl">
                         Select your ideal
                         <span className=" mx-2 text-[#fe815b]">

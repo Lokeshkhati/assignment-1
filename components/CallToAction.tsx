@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { Container } from "./Container"
 import TextWithEmoji from "./TextWithEmoji"
 
@@ -29,7 +30,14 @@ const CallToAction = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="bg-green-400 h-[10rem]"></div>
+                    <div className="">
+                        <div className="  border-2 rounded-lg py-1 px-[10px] w-max border-[#8247ff33] flex items-center gap-2 bg-white ">
+                            <span className="text-[#8247ff] text-xl font-bold tracking-wider" > 200+</span>
+                            <p className="text-gray-900 text-xl font-bold tracking-wider"> Happy Users</p>
+
+                        </div>
+                        <Image src="/assets/user.png" alt="users" height={300} width={300} />
+                    </div>
                 </div>
             </Container>
         </section >

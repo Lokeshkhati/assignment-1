@@ -28,7 +28,7 @@ const PrimaryFeatures = () => {
             <Container>
                 <div className="flex flex-col gap-[60px]  ">
                     <div className=" text-center">
-                        <TextWithEmoji emoji='🔥' text='PREMIER FEATURES' />
+                        <TextWithEmoji emoji='🔥' text='PREMIER FEATURES' align='center' />
                         <h2 className="mt-2  font-medium text-gray-900 text-[40px] md:text-[60px] tracking-tight leading-snug">Discover our product's
                             <span className="inline-block ml-2 text-[#fe815b]">Capabilities</span>
                         </h2>
